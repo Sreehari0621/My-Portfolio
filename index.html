@@ -1,35 +1,61 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>My Portfolio</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <style>
+        body {
+            background-color: #F2FAFF;
+            justify-content: center;
+        }
+        .title{
+            text-align: center;
+        }
+        .menu {
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+            list-style-type: none;
+            margin: 10px;
+        }
+        .links{
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            background-color: lightcyan;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        a:hover {
+            background-color: black;
+            color: white;
+        }
+        .content{
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+        }
+
+
+    </style>
 </head>
-<body bgcolor="#F2FAFF">
-    <h1 style="text-align: center;">Welcome to My Portfolio</h1>
-    <p style="text-align: center;">This is a showcase of my projects and skills.</p>
-    <hr>
-    <hr>
-    <table width="100%">
-        <tr>
-            <td style="text-align: center;"><a href="myProjects.html" style="color: red;"><b>MY PROJECTS</b></a></td>
-            <td style="text-align: center;"><a href="acheivements.html" style="color: red;"><b>MY ACHIEVEMENTS</b></a></td>
-            <td style="text-align: center;"><a href="contact.html" style="color: red;"><b>CONTACT ME</b></a></td>
-        </tr>
-    </table>
-    <hr>
-    <hr>
-    <br><br><br><br><br><br>
-    <table width="100%">
-        <tr>
-            <td style="text-align: center;"><img src="Profile.jpeg" width="180" height="230" border="10"></td>
-            <td><h2>I am Sreehari Mannodi,</h2><p>I am a passionate web developer exploring all the possibilities of the web.<br>
-            I am currantly pursuing my degree in Computer Science from Vellore Institute of Technology.</p></td>
-        </tr>
-    </table>
+<body>
+    <div class="title">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is a showcase of my projects and skills.</p>
+    </div>
+    <ul class="menu">
+        <li><a href="myProjects.html" class="links"><b>MY PROJECTS</b></a></li>
+        <li><a href="acheivements.html" class="links"><b>MY ACHIEVEMENTS</b></a></li>
+        <li><a href="contact.html" class="links"><b>CONTACT ME</b></a></li>
+    </ul>    
+    <div class="content">
+        <td style="text-align: center;"><img src="Profile.jpeg" width="180" height="230" border="10"></td>
+        <td><h2>I am Sreehari Mannodi,</h2><p>I am a passionate web developer exploring all the possibilities of the web.<br>
+        I am currantly pursuing my degree in Computer Science from Vellore Institute of Technology.</p></td>
+    </div>
     
 </body>
 </html>

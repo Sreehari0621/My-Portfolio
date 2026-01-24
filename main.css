@@ -1,0 +1,128 @@
+/* General reset */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+  margin: 0;
+  background-color: #F2FAFF;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #222;
+}
+
+/* Navigation links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Form container (center section) */
+form {
+  background: #ffffff;
+  padding: 25px 30px;
+  width: 550px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #444;
+}
+
+/* Inputs & textarea */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus effect */
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+/* Textarea */
+textarea {
+  resize: vertical;
+}
+
+/* Submit button */
+input[type="submit"] {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+  background: #0056b3;
+  transform: translateY(-1px);
+}
+
+/* OR text */
+td h1 {
+  color: #777;
+  text-align: center;
+}
+
+/* Contact info section */
+td p {
+  font-size: 15px;
+  color: #333;
+}
+
+/* Image */
+img {
+  border-radius: 50%;
+  padding: 6px;
+  background: #fff;
+}
+
+/* Footer section */
+h3 {
+  color: #333;
+}
+
+/* Responsive (mobile) */
+@media (max-width: 768px) {
+  form {
+    width: 90%;
+  }
+
+  table {
+    display: block;
+  }
+
+  tr, td {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
